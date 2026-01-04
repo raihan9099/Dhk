@@ -1,0 +1,117 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123",
+    "secretKey": "your-secret-key-here"
+  },
+  "product": {
+    "name": "Hair Removal Trimmer",
+    "regularPrice": 1500,
+    "offerPrice": 999,
+    "shipping": {
+      "insideDhaka": 60,
+      "outsideDhaka": 100
+    },
+    "whatsappNumber": "8801330513726",
+    "supportPhone": "8801330513726",
+    "description": "Hair Removal Trimmer - আপনার ব্যক্তিগত গরমিং পার্টনার।\n\nএই ট্রিমারটি ব্যবহার করে আপনি খুব সহজে, ব্যথাহীনভাবে ও নিরাপদে অবাঞ্ছিত লোম কাটতে পারবেন। এটি প্রতিদিনের ব্যবহারে সময় বাঁচায় এবং আপনার ত্বককে সুরক্ষিত রাখে।\n\nবিশেষ সুযোগ:\nরেগুলার মূল্য ১৫০০ টাকা\nঅফার মূল্য মাত্র ৯৯৯ টাকা\n\nআমরা দিচ্ছি ১০০% অরিজিনাল পণ্য - তাই নিশ্চিন্তে অর্ডার করতে পারেন\nডেলিভারির সময় পণ্য চেক করে নিতে পারবেন\nপুরুষ ও মহিলা - উভয়ের জন্য উপযুক্ত\nবাংলাদেশের সব অঞ্চলে ক্যাশ অন ডেলিভারি\n\nবিশেষ সুবিধা:\n৭ দিনের রিটার্ন পলিসি\n১ বছর ওয়ারেন্টি\n২৪/৭ কাস্টমার সাপোর্ট\n২৪-৪৮ ঘন্টার মধ্যে ডেলিভারি",
+    "features": [
+      "কর্ডলেস ও রিচার্জেবল - কোথাও নিয়ে যেতে সুবিধা",
+      "৩টি কম্ব গার্ড (৩মিমি, ৬মিমি, ৯মিমি)",
+      "২ ঘন্টা ব্যাকআপ - একবার চার্জে অনেকক্ষণ",
+      "ইউএসবি টাইপ-সি চার্জিং - দ্রুত চার্জ",
+      "ওয়াটারপ্রুফ ডিজাইন - ভেজা অবস্থায়ও ব্যবহার করা যায়",
+      "১ বছর ওয়ারেন্টি - নিশ্চিন্তে ব্যবহার করুন",
+      "হালকা ও বহনযোগ্য - ভ্রমণের জন্য উপযুক্ত",
+      "আধুনিক ডিজাইন - দেখতে স্টাইলিশ"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1591378603223-e15b45a81640?w=600&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=600&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&h=600&fit=crop&auto=format"
+    ]
+  },
+  "facebook": {
+    "pixelId": "YOUR_PIXEL_ID_HERE",
+    "testEventCode": "YOUR_TEST_EVENT_CODE_HERE",
+    "enablePixel": true,
+    "trackEvents": {
+      "viewContent": true,
+      "addToCart": true,
+      "initiateCheckout": true,
+      "purchase": true,
+      "lead": true
+    }
+  },
+  "server": {
+    "port": 3000,
+    "sessionSecret": "your-session-secret-here",
+    "liveNotifications": true,
+    "notificationInterval": 15000,
+    "liveOrderCount": true,
+    "whatsappFloat": true,
+    "countdownTimer": true
+  },
+  "sampleOrders": [
+    {
+      "customer_name": "রহিম",
+      "phone": "01712345678",
+      "address": "মোহাম্মদপুর, ঢাকা",
+      "shipping_area": "inside_dhaka",
+      "quantity": 1,
+      "total": 1059,
+      "status": "completed"
+    },
+    {
+      "customer_name": "করিম",
+      "phone": "01876543210",
+      "address": "মিরপুর, ঢাকা",
+      "shipping_area": "inside_dhaka",
+      "quantity": 2,
+      "total": 2058,
+      "status": "processing"
+    },
+    {
+      "customer_name": "সাদিয়া",
+      "phone": "01987654321",
+      "address": "চট্টগ্রাম সিটি",
+      "shipping_area": "outside_dhaka",
+      "quantity": 1,
+      "total": 1149,
+      "status": "pending"
+    },
+    {
+      "customer_name": "জাহিদ",
+      "phone": "01612345678",
+      "address": "সিলেট",
+      "shipping_area": "outside_dhaka",
+      "quantity": 3,
+      "total": 3297,
+      "status": "shipped"
+    }
+  ],
+  "facebookReviews": [
+    {
+      "name": "আহমেদ রহমান",
+      "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+      "date": "২ দিন আগে",
+      "rating": "★★★★★",
+      "text": "অসাধারণ পণ্য! ২ দিনের মধ্যে পেয়ে গেছি। কোয়ালিটি একদম ফার্স্ট ক্লাস। ব্যাটারি ব্যাকআপ অনেক ভালো। সত্যিই ওয়াটারপ্রুফ - ভেজা অবস্থায়ও ব্যবহার করেছি।"
+    },
+    {
+      "name": "ফারহানা আক্তার",
+      "profilePic": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+      "date": "১ সপ্তাহ আগে",
+      "rating": "★★★★★",
+      "text": "খুবই ভালো লেগেছে এই ট্রিমারটা। হালকা ও বহনযোগ্য, ভ্রমণের জন্য পারফেক্ট। আমার চেহারার লোম খুব সাবলীলভাবে কাটতে পারছি। ব্যথা একদম নেই।"
+    },
+    {
+      "name": "করিম উদ্দিন",
+      "profilePic": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+      "date": "৩ দিন আগে",
+      "rating": "★★★★★",
+      "text": "Type-C চার্জিং সিস্টেমের জন্য অনেক ধন্যবাদ। দ্রুত চার্জ হয় এবং ব্যাকআপ অনেক ভালো। ৩টি কম্ব গার্ড দিয়ে আসায় ভিন্ন ভিন্ন লেংথে কাটতে পারছি।"
+    }
+  ]
+}
